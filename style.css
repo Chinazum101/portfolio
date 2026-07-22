@@ -1,0 +1,44 @@
+        @font-face {
+            font-family:'Inter Black' ;
+            src: url(inter.24pt-black.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Lato Black';
+            src: url(Lato-Black.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'SpaceGrotesk Regular';
+            src: url(SpaceGrotesk-Regular.ttf) format('truetype');
+        }
+        body{
+            background: linear-gradient(145deg,rgb(2, 88, 88),rgb(2, 59, 133),rgb(140, 18, 255),purple);
+            background-repeat: no-repeat;
+        }
+        h1{
+            color: white;
+            margin-left: 20px;
+            font-family: 'SpaceGrotesk Regular', sans-serif;
+        }
+        h2,h3{
+            font-family: 'SpaceGrotesk Regular', sans-serif;
+            margin-left: 20px;
+            color: lightblue;
+        }
+        p{
+           color: lightskyblue;
+            padding: 0px 20px 20px 20px;
+           font-family: 'Inter Black',sans-serif;
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+            background-color: rgb(55, 165, 255);
+            border-radius: 9px;
+            padding: 2px;
+        }
+        ul{
+            color:lightblue;
+            font-family: 'Inter Black',sans-serif;
+            padding: none;
+            margin: none;
+        }
