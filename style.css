@@ -19,10 +19,15 @@
             margin-left: 20px;
             font-family: 'SpaceGrotesk Regular', sans-serif;
         }
-        h2,h3{
+        h2{
             font-family: 'SpaceGrotesk Regular', sans-serif;
             margin-left: 20px;
             color: lightblue;
+        }
+        h3{
+            font-family: 'SpaceGrotesk Regular', sans-serif;
+            margin-left: 20px;
+            color: white;
         }
         p{
            color: lightskyblue;
@@ -41,4 +46,14 @@
             font-family: 'Inter Black',sans-serif;
             padding: none;
             margin: none;
+        }
+        .contact{
+            border: none;
+            background-color:  rgb(55, 165, 255);
+            border-radius: 9px;
+            padding: 2px;
+            color: white;
+            font-family: 'Inter Black',sans-serif;
+            margin: 0px 0px 14px 14px;
+            font-size: 12pt;
         }
