@@ -6,7 +6,7 @@
     <title>Media Page</title>
     <style type="text/css">
         body{
-            background: linear-gradient(145deg,rgb(2, 88, 88),rgb(2, 59, 133),rgb(140, 18, 255),purple);
+  background: linear-gradient(135deg, #021a2f, #0a2f4d 45%, #3a1b7d 100%);
         }
         a{
             background-color: rgb(55, 165, 255);
@@ -22,16 +22,21 @@
             width: auto;
             text-align: center;
             margin-left: 50%;      
+        
         }
         img{
             width: 300px;
             height: 300px;
             border-radius: 14px;
-            margin: 10px;
+            display: flexbox;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 22px;
+            margin-top: 16px;
+            transition: 0.25s ease;
         }
         img:hover{
             position: relative;
-            transform: scale(0.8);
+            transform: translateY(-4px);
         }
     </style>
 </head>
@@ -40,17 +45,12 @@
     <a href="index.html">Home</a>
     <br>
     <br>
-    <img src="1.jpg">
-    <img src="2.jpg">
-    <img src="3.jpg">
-    <img src="4.jpg">
-    <img src="5.jpg">
-    <img src="6.jpg">
-    <img src="7.jpg">
-    <img src="8.jfif">
-    <img src="9.jfif">
-    <img src="10.png">
-    <img src="11.jpg">
-    <img src="12.jfif">
+    <section class="section">
+<pre>     
+    <img src="1.jpg"> <img src="2.jpg"> <img src="3.jpg"> <img src="4.jpg">
+    <img src="5.jpg"> <img src="6.jpg"> <img src="7.jpg"> <img src="8.jfif">
+    <img src="9.jfif"> <img src="10.png"> <img src="11.jpg"> <img src="12.jfif"></pre>
+
+    </section>
 </body>
 </html>
